@@ -426,6 +426,7 @@ def bing_translate(lang, infile, outfile):
     import bing_translate
     import requests
 
+    failed_to_translate = []
     old_translations = {}
 
     # update existing translations
@@ -457,4 +458,9 @@ def bing_translate(lang, infile, outfile):
                     #row[1] = row[1].decode('utf-8')
 
                 #row[0] = row[0].encode('utf-8')
-                w.writerow(row)
+                try:
+                    w.writerow(row)
+                except:
+                    # I'm such a fool
+                    failed_to_translate.append(row[0])
+    print "Failed to translate >>> ", failed_to_translate
