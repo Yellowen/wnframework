@@ -445,7 +445,8 @@ def bing_translate(lang, infile, outfile):
                     print 'translating: ' + row[0]
                     try:
                         response = bing_translate.translate_word(row[0], "en", lang)
-                    except requests.exceptions.ConnectionError:
+                    except:
+                        # This is bad but we have to move on
                         row[1] = row[0]
 
                     print "tranlated to: ", response
