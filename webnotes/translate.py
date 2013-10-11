@@ -425,12 +425,6 @@ def bing_translate(lang, infile, outfile):
 
     import bing_translate
     import requests
-    import conf
-
-    bing_translate.set_credentials(
-        app_id=conf.bing_translator_api["app_id"],
-        client_id=conf.bing_translator_api["client_id"],
-        client_secret=conf.bing_translator_api["client_secret"])
 
     old_translations = {}
 
