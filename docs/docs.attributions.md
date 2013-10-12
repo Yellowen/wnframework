@@ -3,7 +3,7 @@
 	"_label": "Attributions"
 }
 ---
-ERPNext is made using these amazing Open Source Projects.
+Owrang is made using these amazing Open Source Projects.
 
 ### System Requirements:
 
@@ -31,7 +31,7 @@ ERPNext is made using these amazing Open Source Projects.
 
 ### Libraries and Frameworks
 
-1. [wnframework](https://github.com/webnotes/wnframework): The full stack Python + Javascript web application framework on which ERPNext is built.
+1. [wnframework](https://github.com/webnotes/wnframework): The full stack Python + Javascript web application framework on which Owrang is built.
 1. [JQuery](http://jquery.com/): The write less, do more Javascript Library.
 1. [JQuery UI](http://jqueryui.com/): A curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.
 1. [Bootstrap](http://twitter.github.com/bootstrap/index.html): Sleek, intuitive, and powerful front-end framework for faster and easier web development.

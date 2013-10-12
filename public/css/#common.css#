@@ -80,7 +80,6 @@ div#freeze {
 
 .alert-badge a, .alert-badge a:hover {
 	color: black;
-
 	font-weight: bold;
 }
 

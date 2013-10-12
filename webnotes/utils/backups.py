@@ -104,7 +104,7 @@ class BackupGenerator:
 		the files backup</a></p>
 		<p>This link will be valid for 24 hours. A new backup will be available 
 		for download only after 24 hours.</p>
-		<p>Have a nice day!<br>ERPNext</p>""" % {
+		<p>Have a nice day!<br>Owrang</p>""" % {
 			"db_backup_url": os.path.join(backup_url, os.path.basename(self.backup_path_db)),
 			"files_backup_url": os.path.join(backup_url, os.path.basename(self.backup_path_files)) 
 		}

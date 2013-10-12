@@ -112,9 +112,9 @@ def report_errors():
 		limit 10""", as_dict=True)]
 		
 	if errors:
-		sendmail_to_system_managers("ERPNext Scheduler Failure Report", ("""
+		sendmail_to_system_managers("Owrang Scheduler Failure Report", ("""
 	<p>Dear System Managers,</p>
-	<p>Reporting ERPNext failed scheduler events for the day (max 10):</p>
+	<p>Reporting Owrang failed scheduler events for the day (max 10):</p>
 	<p>URL: <a href="%(url)s" target="_blank">%(url)s</a></p><hr>""" % {"url":get_url()}) + "<hr>".join(errors))
 
 if __name__=='__main__':

@@ -7,7 +7,7 @@
 
 wnframework is, a Python based, meta-data driven framework. The framework implements 
 its own object-relational model (ORM) and provides a rich client interface based on 
-Javascript. It is primararily used to develop [ERPNext](https://github.com/webnotes/erpnext)
+Javascript. It is primararily used to develop [Owrang](https://github.com/webnotes/erpnext)
 
 To develop on wnframework, you must have a basic understanding of how web applications 
 and client-server architectures work. On the server-side, requests are handled by Python 
@@ -35,9 +35,9 @@ three model, view and controller to an extent.
 
 ## Client-Server Setup
 
-Let us understand how to setup web folders via ERPNext
+Let us understand how to setup web folders via Owrang
 
-An ERPNext setup contains 2 repositories [erpnext](/webnotes/erpnext) and 
+An Owrang setup contains 2 repositories [erpnext](/webnotes/erpnext) and 
 [wnframework](/webnotes/wnframework). In the main folder of the erpnext setup there 
 are 3 folders:
 
